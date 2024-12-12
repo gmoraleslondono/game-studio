@@ -16,9 +16,11 @@ Tables:
 
 ## Step 1: Setting Up
 
-1. Initialize Your Project
+1. Create a new folder for this project and add the docker-compose.yml file
 
-- Create a new folder for this project and run
+2. Initialize Your Project
+
+- Run
 
 ```
 npm init -y
@@ -32,7 +34,7 @@ npm install express pg dotenv nodemon
 
 - Set up a .env file to store your PostgreSQL connection details.
 
-2. Set Up the Database
+3. Set Up the Database
 
 - make sure docker is running in your local.
 
@@ -96,7 +98,7 @@ INSERT INTO scores (player_id, game_id, score, play_date) VALUES
 (3, 3, 190, '2024-03-25');
 ```
 
-3. Create a Basic Express Server
+4. Create a Basic Express Server
 
 - Set up an Express app in index.js and configure it to connect to your PostgreSQL database.
 
