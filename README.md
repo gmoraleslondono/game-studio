@@ -183,6 +183,7 @@ Write a route that returns each player’s favorite game (the game they’ve pla
 
 2. Copy your code to a GitHub Gist and share the link in the bellow.
 
-```
+## Tutorial Link
 
-```
+- https://www.youtube.com/watch?v=oRrlJtlGJxo
+- https://www.youtube.com/watch?v=yYODewhGQkU
